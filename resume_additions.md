@@ -26,12 +26,14 @@ Complete source of truth for all resume content. Edit here first, then update `l
 **CPI:** 8.61 / 10.0
 
 ### Shri Agrasen Vidyalaya
+> **IGNORED** — high school entries dropped with 2 years industry experience  
 **Degree:** Higher Secondary Certificate  
 **Year:** 2019  
 **Location:** Indore, MP  
 **Score:** 84.6%
 
 ### Saraswati International School
+> **IGNORED** — high school entries dropped with 2 years industry experience  
 **Degree:** Secondary School Certificate  
 **Year:** 2017  
 **Location:** Valsad, Gujarat  
@@ -40,6 +42,7 @@ Complete source of truth for all resume content. Edit here first, then update `l
 ---
 
 ## Coursework
+> **IGNORED** — not relevant with industry experience
 
 - AI Programming with Python Nanodegree
 - Machine Learning
@@ -57,6 +60,7 @@ Complete source of truth for all resume content. Edit here first, then update `l
 **Operating Systems:** Windows, Linux
 
 **Soft Skills:** Communication • Leadership • Team Management • Event Management
+> **IGNORED** — soft skills dropped; implied by experience bullets
 
 ---
 
@@ -90,15 +94,18 @@ Complete source of truth for all resume content. Edit here first, then update `l
 - Engineered a high-performing, multithreaded download manager for datasets up to 100 GBs.
 
 ### Enigma – Math Club | Secretary
+> **IGNORED** — club roles dropped with sufficient professional experience  
 **Dates:** August 2022 – Present  
 - Successfully conducted *1729 – The Adventures of Ramanujan* with 87 student participants.
 
 ### Google Developer Student Club | ML/AI Volunteer
+> **IGNORED** — club roles dropped with sufficient professional experience  
 **Dates:** December 2021 – July 2022  
 - Helped conduct a Machine Learning Introduction workshop.
 - Clarified doubts and provided resources for students getting started with Machine Learning.
 
 ### Finance and Consulting Club | Social Media Lead
+> **IGNORED** — club roles dropped with sufficient professional experience  
 **Dates:** August 2021 – Present  
 - Increased social media engagement and participation in various club events.
 
@@ -119,10 +126,12 @@ Complete source of truth for all resume content. Edit here first, then update `l
 - Developed a command line utility for Todoist using the Todoist REST API.
 
 ### Tic Tac Toe
+> **IGNORED** — basic project, dropped with industry experience  
 **Stack:** Python  
 - Implemented Tic Tac Toe with Easy, Medium, Multiplayer, and AI modes.
 
 ### KnockBot
+> **IGNORED** — basic project, dropped with industry experience  
 **Stack:** Python, discord.py  
 - Programmed a Discord bot that tells knock-knock jokes using discord.py and the Jokes API.
 

@@ -1,0 +1,46 @@
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex\(busy\)
+
+# Bibliography
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+
+# Index
+*.idx
+*.ind
+*.ilg
+
+# Glossary / acronyms
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.xdy
+
+# Beamer
+*.nav
+*.snm
+*.vrb
+
+# Other build artifacts
+*.dvi
+*.ps
+*.pdfsync
+
+# Ignore all PDFs except the two tracked ones
+*.pdf
+!resume.pdf
+!latex/main.pdf

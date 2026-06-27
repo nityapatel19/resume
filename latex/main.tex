@@ -5,7 +5,7 @@
 % License : MIT
 %------------------------
 
-\documentclass[a4paper,11pt]{article}
+\documentclass[a4paper,10pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -111,9 +111,17 @@
     \small +91-9131174431 $|$
     \href{mailto:nityapatel19@gmail.com}{\underline{nityapatel19@gmail.com}} $|$
     \href{https://linkedin.com/in/nityapatel19}{\underline{linkedin.com/in/nityapatel19}} $|$
-    \href{https://github.com/nityapatel19}{\underline{github.com/nityapatel19}} $|$
-    \href{https://nityapatel19.com}{\underline{nityapatel19.com}}
+    \href{https://github.com/nityapatel19}{\underline{github.com/nityapatel19}}
 \end{center}
+
+
+%-----------SUMMARY-----------
+\section{Summary}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     Software engineer with 2 years of professional experience building and owning production Python systems across quantitative trading infrastructure, applied ML, and AR/VR. Consistently delivers high-impact internal tooling with measurable outcomes.
+    }}
+ \end{itemize}
 
 
 %-----------EDUCATION-----------
@@ -121,7 +129,10 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {IIIT Vadodara}{Gandhinagar, Gujarat}
-      {B.Tech in Computer Science $|$ CPI: 8.61/10.0}{2020 -- 2024}
+      {B.Tech in Computer Science $|$ GPA: 8.61/10.0}{2020 -- 2024}
+    \resumeSubheading
+      {Shri Agrasen Vidyalaya}{Indore, Madhya Pradesh}
+      {Higher Secondary Certificate $|$ Score: 84.6\%}{2019}
   \resumeSubHeadingListEnd
 
 
@@ -133,9 +144,9 @@
       {Graviton Research Capital}{Gandhinagar / Gurugram}
       {Software Developer -- Tech Tools}{June 2024 -- Present}
       \resumeItemListStart
-        \resumeItem{Develop and maintain daily automations and exchange-specific workflows in Python and Bash.}
-        \resumeItem{Built and own the \texttt{config\_converter} module, which automates input expansion and reduces manual configuration effort.}
-        \resumeItem{Designed an inventory allocation algorithm based on request patterns and usage history, preventing resource exploitation by any single candidate.}
+        \resumeItem{Develop and maintain daily automations and exchange-specific workflows across 4 exchanges.}
+        \resumeItem{Built and owned the \texttt{config\_converter} module, which runs for 1000s of runs daily, saving developer effort and time.}
+        \resumeItem{Designed a usage-based borrow allocation algorithm used across $\sim$30 strategies.}
         \resumeItem{Create internal tooling to eliminate repetitive tasks and improve team productivity.}
       \resumeItemListEnd
 
@@ -143,25 +154,23 @@
       {VizExperts}{Gurugram}
       {Software Development Intern}{January 2024 -- May 2024}
       \resumeItemListStart
-        \resumeItem{Assisted with bug resolution in an AR/VR application built on Unreal Engine using C++ and Blueprint scripting.}
         \resumeItem{Designed and built an AI-based live drift correction module from scratch using Python, OpenCV, and PyTorch, targeting iPad AR workflows without multi-camera hardware support.}
         \resumeItem{Achieved a $\sim$10--15$\times$ reduction in drift accumulation rate compared to baseline.}
+        \resumeItem{Assisted with bug resolution in an AR/VR application built on Unreal Engine using C++ and Blueprint scripting.}
       \resumeItemListEnd
 
     \resumeSubheading
       {MathWorks}{Bangalore}
       {EDG Intern}{May 2023 -- July 2023}
       \resumeItemListStart
-        \resumeItem{Collaborated with the team on enhancements of the FMU3 Import Block.}
-        \resumeItem{Shadowed experienced engineers to gain insights into providing technical support.}
-        \resumeItem{Participated in various team events including a hackathon.}
+        \resumeItem{Added support for FMU 3.0 in the FMU Import Block component in Simulink.}
       \resumeItemListEnd
 
     \resumeSubheading
       {iHub-Data, IIIT Hyderabad}{Hyderabad}
       {Machine Learning Intern}{May 2022 -- July 2022}
       \resumeItemListStart
-        \resumeItem{Contributed to a cutting-edge Dataset Foundation project to create a platform for ML/AI researchers.}
+        \resumeItem{Contributed to a Dataset Foundation project to create a platform for ML/AI researchers.}
         \resumeItem{Collaborated with a team of 10 to design the project architecture and establish an efficient delivery pipeline.}
         \resumeItem{Engineered a high-performing, multithreaded download manager for datasets up to 100 GBs.}
       \resumeItemListEnd
@@ -173,14 +182,15 @@
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{Ornithological Sound Identifier} $|$ \emph{Python, PyTorch}}{}
+          {\textbf{Algorithmic Trading Framework} $|$ \emph{Python, asyncio, Parquet}}{}
           \resumeItemListStart
-            \resumeItem{Implementing a multilayered neural network that identifies birds from soundscapes.}
+            \resumeItem{Architected a single-process trading infrastructure with a central event bus --- components are fully decoupled, and new exchanges or strategies are each a single-file addition.}
+            \resumeItem{Implemented a live CoinDCX exchange adapter for OHLCV candle streaming and defined a BaseExchange interface to support multi-exchange operation without architectural changes.}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{Focused} $|$ \emph{ReactJS, Django Rest Framework}}{}
+          {\textbf{Ornithological Sound Identifier} $|$ \emph{Python, PyTorch}}{}
           \resumeItemListStart
-            \resumeItem{Developing a virtual study/work platform enabling users to study/work together with minimal distractions.}
+            \resumeItem{Implemented a multilayered neural network that identifies birds from soundscapes.}
           \resumeItemListEnd
       \resumeProjectHeading
           {\textbf{Todoist Command Line Utility} $|$ \emph{Python}}{}
@@ -195,7 +205,7 @@
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
      \textbf{Languages}{: Python, C, C++, Java, JavaScript, Matlab, SQL, Bash} \\
-     \textbf{Tools \& Frameworks}{: Git, Django, ReactJS, discord.py, \LaTeX, Firebase, PyTorch} \\
+     \textbf{Tools \& Frameworks}{: Git, Django, ReactJS, \LaTeX, Firebase, PyTorch} \\
      \textbf{Operating Systems}{: Windows, Linux}
     }}
  \end{itemize}
@@ -205,9 +215,9 @@
 \section{Achievements}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Giftabled Hackathon}{: 2nd rank among 100 participants} \\
-     \textbf{CTF}{: 3rd rank among 100 participants} \\
-     \textbf{Tech Hunt}{: 1st rank among 150 participants}
+     \textbf{Giftabled Hackathon}{: 2nd rank among 100 participants --- created a facial recognition app embedded on an attachable pin, focused on helping visually impaired people.} \\
+     \textbf{CTF}{: 3rd rank among 100 participants --- Capture the Flag; solved sequential puzzles involving cryptography, computer networks, web technology, and maths.} \\
+     \textbf{Tech Hunt}{: 1st rank among 150 participants --- non-sequential puzzle competition; most puzzles solved wins.}
     }}
  \end{itemize}
 

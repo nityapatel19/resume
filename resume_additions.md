@@ -4,6 +4,12 @@ Complete source of truth for all resume content. Edit here first, then update `l
 
 ---
 
+## Summary
+
+Software developer with 2+ years of professional experience in Python, specializing in automation, internal tooling, and algorithmic systems. Background spans quantitative trading infrastructure, machine learning, and AR/VR development.
+
+---
+
 ## Personal Info
 
 | Field | Value |
@@ -23,10 +29,9 @@ Complete source of truth for all resume content. Edit here first, then update `l
 **Degree:** B.Tech in Computer Science  
 **Year:** 2024  
 **Location:** Gandhinagar, Gujarat  
-**CPI:** 8.61 / 10.0
+**GPA:** 8.61 / 10.0
 
 ### Shri Agrasen Vidyalaya
-> **IGNORED** — high school entries dropped with 2 years industry experience  
 **Degree:** Higher Secondary Certificate  
 **Year:** 2019  
 **Location:** Indore, MP  
@@ -55,7 +60,7 @@ Complete source of truth for all resume content. Edit here first, then update `l
 
 **Languages:** Python • C • C++ • Java • JavaScript • Matlab • SQL • Bash *(new)*
 
-**Tools and Frameworks:** Git • Django • ReactJS • discord.py • LaTeX • Firebase • PyTorch *(new)*
+**Tools and Frameworks:** Git • Django • ReactJS • LaTeX • Firebase • PyTorch *(new)*
 
 **Operating Systems:** Windows, Linux
 
@@ -69,23 +74,21 @@ Complete source of truth for all resume content. Edit here first, then update `l
 ### Graviton Research Capital | Software Developer – Tech Tools *(new)*
 **Dates:** June 2024 – Present  
 **Location:** Gandhinagar, then Gurugram  
-- Develop and maintain daily automations and exchange-specific workflows in Python and Bash.
-- Built and own the `config_converter` module, which automates input expansion and reduces manual configuration effort.
+- Develop and maintain daily automations and exchange-specific workflows across 4 exchanges.
+- Built and owned the `config_converter` module, which runs for 1000s of runs daily, saving developer effort and time.
+- Designed a usage-based borrow allocation algorithm used across ~30 strategies.
 - Create internal tooling to eliminate repetitive tasks and improve team productivity.
-- Designed an inventory allocation algorithm based on request patterns and usage history, preventing resource exploitation by any single candidate.
 
 ### VizExperts | Software Development Intern *(new)*
 **Dates:** January 2024 – May 2024  
 **Location:** Gurugram  
-- Assisted with bug resolution in an AR/VR application built on Unreal Engine using C++ and Blueprint scripting.
 - Designed and built an AI-based live drift correction module from scratch using Python, OpenCV, and PyTorch, targeting iPad AR workflows without multi-camera hardware support.
 - Achieved a ~10–15× reduction in drift accumulation rate compared to baseline.
+- Assisted with bug resolution in an AR/VR application built on Unreal Engine using C++ and Blueprint scripting.
 
 ### MathWorks, Bangalore | EDG Intern
 **Dates:** May 2023 – July 2023  
-- Collaborated with the team on enhancements of the FMU3 Import Block.
-- Shadowed experienced engineers to gain insights into providing technical support.
-- Participated in various team events including a hackathon.
+- Added support for FMU 3.0 in the FMU Import Block component in Simulink.
 
 ### iHub-Data, IIIT Hyderabad | Machine Learning Intern
 **Dates:** May 2022 – July 2022  
@@ -113,11 +116,17 @@ Complete source of truth for all resume content. Edit here first, then update `l
 
 ## Projects
 
+### Algorithmic Trading Framework
+**Stack:** Python, asyncio, Parquet
+- Architected a single-process asyncio trading infrastructure with a central EventBus — components are fully decoupled, and new exchanges or strategies are each a single-file addition.
+- Implemented a live CoinDCX exchange adapter for OHLCV candle streaming and defined a BaseExchange interface to support multi-exchange operation without architectural changes.
+
 ### Ornithological Sound Identifier
 **Stack:** Python, PyTorch  
-- Implementing a multilayered neural network that identifies birds from soundscapes.
+- Implemented a multilayered neural network that identifies birds from soundscapes.
 
 ### Focused
+> **IGNORED** — removed to keep resume focused and one page
 **Stack:** ReactJS, Django Rest Framework  
 - Developing a virtual study/work platform enabling users to study/work together with minimal distractions.
 
@@ -139,9 +148,9 @@ Complete source of truth for all resume content. Edit here first, then update `l
 
 ## Achievements
 
-- **Giftabled Hackathon** — 2nd rank among 100 participants
-- **CTF** — 3rd rank among 100 participants
-- **Tech Hunt** — 1st rank among 150 participants
+- **Giftabled Hackathon** — 2nd rank among 100 participants — created a facial recognition app embedded on an attachable pin, focused on helping visually impaired people.
+- **CTF** — 3rd rank among 100 participants — Capture the Flag; solved sequential puzzles involving cryptography, computer networks, web technology, and maths.
+- **Tech Hunt** — 1st rank among 150 participants — non-sequential puzzle competition; most puzzles solved wins.
 
 ---
 
